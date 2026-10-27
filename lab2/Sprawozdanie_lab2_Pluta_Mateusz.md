@@ -1,9 +1,11 @@
 # Szablon sprawozdania laboratoryjnego
 
 **Przedmiot:** Uczenie głębokie do rozpoznawania obiektów
+
 **Zajęcia nr / temat:** Trenowanie i strojenie klasyfikatora obrazów
 
 **Autor / grupa:** Mateusz Pluta GL5.03
+
 **Data:** 21.10.2026r.
 
 ## 1. Cel ćwiczenia
@@ -12,11 +14,15 @@ Celem ćwiczenia jest poprawa jakości i generalizacji bazowego klasyfikatora ob
 
 ## 2. Metoda i implementacja
 
-**Wykorzystane narzędzia, modele i zbiory danych.**
-PyTorch, torchvision, matplotlib.
-Model: MLP
-Zbiór danych: FashionMNIST, podział na 50 000 (trening), 10 000 (walidacja), 10 000 (test) 
+**Wykorzystane narzędzia, modele i zbiory danych:**
+PyTorch, torchvision, matplotlib
+
+**Model:** MLP
+
+**Zbiór danych:** FashionMNIST, podział na 50 000 (trening), 10 000 (walidacja), 10 000 (test)
+
 **Link do repozytorium/notatnika**
+https://github.com/mattty1/Uczenie-glebokie-do-rozpoznawania-obiektow.git
 
 **Konfiguracja**
 Trening przeprowadzono przez 15 epok, batch size = 128, optymalizator Adam (lr=1e-3). Stratę dla zbioru treningowego mierzono w trybie eval() na czystych danych bez augmentacji, aby rzetelnie obliczyć lukę. Przetestowano 4 konfiguracje:
