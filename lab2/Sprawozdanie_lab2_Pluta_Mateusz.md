@@ -32,10 +32,16 @@ Wariant 3 - Pełna regularyzacja: Wariant 2 + Weight Decay 1e-4 + StepLR
 
 | Konfiguracja | Wybrana epoka | Accuracy walidacyjna | Luka train-validation (strata) |
 |---|---|---|---|
-| Baseline | [wpisz] | [wpisz] | [wpisz] |
-| Wariant 1 (Augmentacja) | [wpisz] | [wpisz] | [wpisz] |
-| Wariant 2 (Aug + BN + Dropout) | [wpisz] | [wpisz] | [wpisz] |
-| Wariant 3 (Pełna regularyzacja) | [wpisz] | [wpisz] | [wpisz] |
+| Baseline | 5 | 0.89 | 0.06 |
+| Wariant 1 (Augmentacja) | 15 | 0.84 | 0.02 |
+| Wariant 2 (Aug + BN + Dropout) | 15 | 0.83 | 0.017 |
+| Wariant 3 (Pełna regularyzacja) | 15 | 0.82 | 0.016 |
+
+Accuracy testowa dla końcowych modeli (ocena ostateczna):
+
+Baseline: 0.8847
+
+Najlepszy wariant (Baseline): 0.8847
 
 ![alt text](<Krzywe straty.png>)
 
