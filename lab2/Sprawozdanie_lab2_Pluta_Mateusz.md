@@ -21,10 +21,10 @@ PyTorch, torchvision, matplotlib
 
 **Zbiór danych:** FashionMNIST, podział na 50 000 (trening), 10 000 (walidacja), 10 000 (test)
 
-**Link do repozytorium/notatnika**
+**Link do repozytorium/notatnika:**
 https://github.com/mattty1/Uczenie-glebokie-do-rozpoznawania-obiektow.git
 
-**Konfiguracja**
+**Konfiguracja:**
 Trening przeprowadzono przez 15 epok, batch size = 128, optymalizator Adam (lr=1e-3). Stratę dla zbioru treningowego mierzono w trybie eval() na czystych danych bez augmentacji, aby rzetelnie obliczyć lukę. Przetestowano 4 konfiguracje:
 
 Baseline - czysty model, brak augmentacji i regularyzacji
